@@ -280,3 +280,39 @@ footer .fm_3{background-color: #2b4c99;}
 
 }
 
+/* media queries */
+
+@media(max-width:600px){
+    .banner_headline h1{
+        font-size: 55px;
+    }
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .main_content{
+        margin-top: 60px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section,#geral aside{
+        padding: 20px;
+    }
+    footer,.footer_area{
+        flex-direction: column;
+    }
+    .menu{
+        justify-content: end;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 0;
+    }
+}
